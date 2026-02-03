@@ -52,7 +52,7 @@
             bindings = <
 &mt ESC TILDE  &kp J  &kp D  &kp U  &kp A     &kp X                                                 &kp P              &kp H          &kp L      &kp M    &kp W  &kp S
 &kp TAB        &kp C  &kp T  &kp I  &kp E     &kp O                                                 &kp B              &kp N          &kp R      &kp S    &kp G  &kp Q
-&kp LSHFT      &kp F  &kp V  &kp U  &kp A     &kp O      &kp ESC                        &caps_word  &kp Y              &kp Z          &kp COMMA  &kp DOT  &kp K  &kp RIGHT_SHIFT
+&kp LSHFT      &kp F  &kp V  &kp Ü  &kp Ä     &kp Ö      &kp ESC                        &caps_word  &kp Y              &kp Z          &kp COMMA  &kp DOT  &kp K  &kp RIGHT_SHIFT
                                     &kp LALT  &kp SPACE  &mo 2    &kp RET    &kp SPACE  &mo 1       &kp RIGHT_COMMAND  &kp RIGHT_ALT
             >;
         };
