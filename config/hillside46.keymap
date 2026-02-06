@@ -52,7 +52,7 @@
             bindings = <
 &mt TAB ESC  &kp J  &kp D  &kp U             &kp A             &kp X                                                &kp P      &kp H          &kp L      &kp M    &kp W  &kp S
 &kp GLOBE    &kp C  &kp T  &kp I             &kp E             &kp O                                                &kp B      &kp N          &kp R      &kp S    &kp G  &kp Q
-&kp LSHFT    &kp F  &kp V  &kp LEFT_BRACKET  &kp SEMICOLON     &kp SQT       &kp ESC                    &caps_word  &kp Z      &kp Y          &kp COMMA  &kp DOT  &kp K  &kp RIGHT_SHIFT
+&kp LSHFT    &kp F  &kp V  &kp LEFT_BRACKET  &kp APOSTROPHE    &kp SEMI      &kp ESC                    &caps_word  &kp Z      &kp Y          &kp COMMA  &kp DOT  &kp K  &kp RIGHT_SHIFT
                                              &kp LEFT_CONTROL  &kp LEFT_GUI  &kp SPACE  &mo 1    &mo 2  &mo 3       &kp GLOBE  &kp RIGHT_ALT
             >;
         };
@@ -76,10 +76,10 @@
  */
 
             bindings = <
-&kp INS  &kp KP_DOT     &kp LS(MINUS)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET                                       &kp EXCLAMATION  &kp LESS_THAN         &kp GREATER_THAN       &kp EQUAL  &kp AMPERSAND  &kp AT_SIGN
-&trans   &kp BACKSLASH  &kp SLASH      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp ASTERISK                                    &kp QUESTION     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON      &trans
-&trans   &kp HASH       &kp DOLLAR     &kp PIPE          &kp TILDE          &kp GRAVE     &trans                    &trans  &kp PLUS         &kp PERCENT           &kp DOUBLE_QUOTES      &kp SQT    &kp SEMICOLON  &trans
-                                                         &trans             &trans        &trans  &trans    &trans  &trans  &trans           &trans
+&kp INS  &kp KP_DOT     &kp LS(SLASH)  &kp RA(N5)      &kp RA(NUMBER_6)  &kp CARET                                       &kp EXCLAMATION  &kp LESS_THAN         &kp GREATER_THAN       &kp EQUAL  &kp AMPERSAND   &kp AT_SIGN
+&trans   &kp BACKSLASH  &kp SLASH      &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp ASTERISK                                    &kp QUESTION     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp RS(PERIOD)  &trans
+&trans   &kp HASH       &kp DOLLAR     &kp PIPE        &kp TILDE         &kp GRAVE     &trans                    &trans  &kp PLUS         &kp PERCENT           &kp DOUBLE_QUOTES      &kp SQT    &kp RS(COMMA)   &trans
+                                                       &trans            &trans        &trans  &trans    &trans  &trans  &trans           &trans
             >;
         };
 
