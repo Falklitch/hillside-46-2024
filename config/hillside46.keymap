@@ -50,7 +50,7 @@
  */
 
             bindings = <
-&mt TAB ESC  &kp J  &kp D  &kp U             &kp A             &kp X                                                &kp P      &kp H          &kp L      &kp M    &kp W  &kp MINUS
+&mt ESC TAB  &kp J  &kp D  &kp U             &kp A             &kp X                                                &kp P      &kp H          &kp L      &kp M    &kp W  &kp MINUS
 &kp GLOBE    &kp C  &kp T  &kp I             &kp E             &kp O                                                &kp B      &kp N          &kp R      &kp S    &kp G  &kp Q
 &kp LSHFT    &kp F  &kp V  &kp LEFT_BRACKET  &kp APOSTROPHE    &kp SEMI      &kp ESC                    &caps_word  &kp Z      &kp Y          &kp COMMA  &kp DOT  &kp K  &kp RIGHT_SHIFT
                                              &kp LEFT_CONTROL  &kp LEFT_GUI  &kp SPACE  &mo 1    &mo 2  &mo 3       &kp GLOBE  &kp RIGHT_ALT
