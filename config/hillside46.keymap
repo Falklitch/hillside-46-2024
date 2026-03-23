@@ -41,7 +41,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        IOS_default_0 {
             /* QWERTY
  * -------------------------------------------------------------------------------------------------------------------------------------
  * | `     |   Q   |   W   |   E   |   R   |   T   |-----------------------------------|   Y   |   U   |   I   |   O   |   P   | BKSPC |
@@ -51,14 +51,14 @@
  */
 
             bindings = <
-&mt ESC TAB  &kp J  &kp D  &kp U            &kp A             &kp X                                                   &kp P      &kp H          &kp L      &kp M    &kp W  &kp DE_SZ
-&kp GLOBE    &kp C  &kp T  &kp I            &kp E             &kp O                                                   &kp B      &kp N          &kp R      &kp S    &kp G  &kp Q
-&kp LSHFT    &kp F  &kp V  &kp DE_U_UMLAUT  &kp DE_A_UMLAUT   &kp DE_O_UMLAUT  &kp ESC                    &caps_word  &kp DE_Y   &kp DE_Z       &kp COMMA  &kp DOT  &kp K  &kp RIGHT_SHIFT
-                                            &kp LEFT_CONTROL  &kp LEFT_GUI     &kp SPACE  &mo 1    &mo 2  &mo 4       &kp GLOBE  &kp RIGHT_ALT
+&mt ESC TAB  &kp J  &kp D  &kp U            &kp A            &kp X                                                   &kp P      &kp H      &kp L      &kp M    &kp W  &kp DE_SZ
+&kp GLOBE    &kp C  &kp T  &kp I            &kp E            &kp O                                                   &kp B      &kp N      &kp R      &kp S    &kp G  &kp Q
+&kp LSHFT    &kp F  &kp V  &kp DE_U_UMLAUT  &kp DE_A_UMLAUT  &kp DE_O_UMLAUT  &to 6                      &caps_word  &kp DE_Y   &kp DE_Z   &kp COMMA  &kp DOT  &kp K  &kp RIGHT_SHIFT
+                                            &kp LEFT_ALT     &kp LEFT_GUI     &kp SPACE  &mo 1    &mo 2  &mo 4       &kp GLOBE  &kp LCTRL
             >;
         };
 
-        nav_edit_num_fn {
+        IOS_edit_num_fn_1 {
             bindings = <
 &kp LG(LS(KP_NUMBER_3))  &kp N1     &kp N2     &kp N3  &kp N4     &kp N5                                              &kp N6       &kp N7          &kp N8        &kp N9    &kp N0           &kp BSPC
 &kp LG(Y)                &kp LG(A)  &kp LG(X)  &trans  &kp LG(C)  &kp LG(V)                                           &kp PAGE_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN
@@ -67,7 +67,7 @@
             >;
         };
 
-        bone_ebene_3_IOS {
+        IOS_bone_ebene_3 {
             /* SYM
  * -------------------------------------------------------------------------------------------------------------------------------------
  * | INS   |   !   |   @   |   #   |   $   |   %   |-----------------------------------|   ^   |   &   |   *   |   (   |   )   | BSPC  |
@@ -84,11 +84,11 @@
             >;
         };
 
-        bone_ebene_4 {
+        IOS_bone_ebene_4 {
             bindings = <
 &trans          &kp PG_UP  &kp BSPC  &kp UP_ARROW  &kp DEL    &kp PG_DN                                    &kp LS(DLLR)   &kp N7  &kp N8  &kp N9  &kp RIGHT_BRACKET  &kp SLASH
 &kp LCTRL       &kp HOME   &kp LEFT  &kp DOWN      &kp RIGHT  &kp END                                      &kp LSHFT      &kp N4  &kp N5  &kp N6  &kp COMMA          &kp DOT
-&kp LEFT_SHIFT  &kp ESC    &kp TAB   &trans        &kp RET    &kp LG(Z)  &trans                    &tog 6  &kp LS(COLON)  &kp N1  &kp N2  &kp N3  &trans             &trans
+&kp LEFT_SHIFT  &kp ESC    &kp TAB   &trans        &kp RET    &kp LG(Z)  &trans                    &trans  &kp LS(COLON)  &kp N1  &kp N2  &kp N3  &trans             &trans
                                                    &trans     &trans     &trans  &trans    &trans  &trans  &trans         &trans
             >;
         };
@@ -127,12 +127,39 @@
             >;
         };
 
-        bone_ebene_3_WIN {
+        WIN_default_0 {
+            bindings = <
+&mt ESC TAB  &kp J  &kp D  &kp U            &kp A            &kp X                                                   &kp P      &kp H          &kp L      &kp M    &kp W  &kp DE_SZ
+&kp LCTRL    &kp C  &kp T  &kp I            &kp E            &kp O                                                   &kp B      &kp N          &kp R      &kp S    &kp G  &kp Q
+&kp LSHFT    &kp F  &kp V  &kp DE_U_UMLAUT  &kp DE_A_UMLAUT  &kp DE_O_UMLAUT  &to 0                      &caps_word  &kp DE_Y   &kp DE_Z       &kp COMMA  &kp DOT  &kp K  &kp RIGHT_SHIFT
+                                            &kp LEFT_WIN     &kp LEFT_ALT     &kp SPACE  &mo 7    &mo 8  &mo 4       &kp GLOBE  &kp RIGHT_ALT
+            >;
+        };
+
+        WIN_edit_num_fn_1 {
+            bindings = <
+&kp LG(LS(KP_NUMBER_3))  &kp N1     &kp N2     &kp N3  &kp N4     &kp N5                                              &kp N6       &kp N7          &kp N8        &kp N9    &kp N0           &kp BSPC
+&kp LC(Y)                &kp LC(A)  &kp LC(X)  &trans  &kp LC(C)  &kp LC(V)                                           &kp PAGE_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LC(Z)                &kp F1     &kp F2     &kp F3  &kp F4     &kp F5     &caps_word                   &kp DELETE  &kp F6       &kp F7          &kp F8        &kp F9    &kp F10          &kp RET
+                                                       &trans     &trans     &trans      &trans    &mo 5  &sl 9       &trans       &trans
+            >;
+        };
+
+        WIN_bone_ebene_3 {
             bindings = <
 &kp INS    &kp DE_DOT   &kp DE_UNDERSCORE  &kp LBKT     &kp RBKT      &kp DE_CARET                                       &kp LS(NUMBER_1)  &kp DE_LT                &kp DE_GT                 &kp DE_EQUAL  &kp DE_AMPERSAND  &kp BACKSPACE
 &trans     &kp DE_BSLH  &kp DE_SLASH       &kp DE_LBRC  &kp DE_RBRC   &kp LS(DE_PLUS)                                    &kp DE_QUESTION   &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_MINUS  &kp DE_COLON      &kp DE_AT
 &kp LSHFT  &kp DE_HASH  &kp DE_DOLLAR      &kp DE_PIPE  &kp DE_TILDE  &kp DE_GRAVE     &trans                    &trans  &kp DE_PLUS       &kp DE_PERCENT           &kp DE_DOUBLE_QUOTES      &kp DE_SQT    &kp DE_SEMICOLON  &kp RSHFT
                                                         &trans        &trans           &trans  &trans    &trans  &trans  &trans            &trans
+            >;
+        };
+
+        WIN_bone_ebene_4 {
+            bindings = <
+&trans          &kp PG_UP  &kp BSPC  &kp UP_ARROW  &kp DEL    &kp PG_DN                                    &kp LS(DLLR)   &kp N7  &kp N8  &kp N9  &kp RIGHT_BRACKET  &kp SLASH
+&kp LCTRL       &kp HOME   &kp LEFT  &kp DOWN      &kp RIGHT  &kp END                                      &kp LSHFT      &kp N4  &kp N5  &kp N6  &kp COMMA          &kp DOT
+&kp LEFT_SHIFT  &kp ESC    &kp TAB   &trans        &kp RET    &kp LG(Z)  &trans                    &tog 9  &kp LS(COLON)  &kp N1  &kp N2  &kp N3  &trans             &trans
+                                                   &trans     &trans     &trans  &trans    &trans  &trans  &trans         &trans
             >;
         };
     };
