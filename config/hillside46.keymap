@@ -60,10 +60,10 @@
 
         IOS_edit_num_fn_1 {
             bindings = <
-&kp LG(LS(KP_NUMBER_3))  &kp N1     &kp N2     &kp N3  &kp N4     &kp N5                                              &kp N6       &kp N7          &kp N8        &kp N9    &kp N0           &kp BSPC
-&kp LG(Y)                &kp LG(A)  &kp LG(X)  &trans  &kp LG(C)  &kp LG(V)                                           &kp PAGE_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LG(Z)                &kp F1     &kp F2     &kp F3  &kp F4     &kp F5     &caps_word                   &kp DELETE  &kp F6       &kp F7          &kp F8        &kp F9    &kp F10          &kp RET
-                                                       &trans     &trans     &trans      &trans    &mo 5  &trans      &trans       &trans
+&kp LG(LS(KP_NUMBER_3))  &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                                              &kp N6       &kp N7          &kp N8        &kp N9    &kp N0           &kp BSPC
+&kp LG(Y)                &kp LG(A)  &kp DE_ESZETT  &kp LG(X)  &kp LG(C)  &kp LG(V)                                           &kp PAGE_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LG(Z)                &kp F1     &kp F2         &kp F3     &kp F4     &kp F5     &caps_word                   &kp DELETE  &kp F6       &kp F7          &kp F8        &kp F9    &kp F10          &kp RET
+                                                              &trans     &trans     &trans      &trans    &mo 5  &trans      &trans       &trans
             >;
         };
 
@@ -138,10 +138,10 @@
 
         WIN_edit_num_fn_1 {
             bindings = <
-&kp LG(LS(KP_NUMBER_3))  &kp N1     &kp N2     &kp N3  &kp N4     &kp N5                                              &kp N6       &kp N7          &kp N8        &kp N9    &kp N0           &kp BSPC
-&kp LC(Y)                &kp LC(A)  &kp LC(X)  &trans  &kp LC(C)  &kp LC(V)                                           &kp PAGE_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LC(Z)                &kp F1     &kp F2     &kp F3  &kp F4     &kp F5     &caps_word                   &kp DELETE  &kp F6       &kp F7          &kp F8        &kp F9    &kp F10          &kp RET
-                                                       &trans     &trans     &trans      &trans    &mo 5  &sl 9       &trans       &trans
+&kp LG(LS(KP_NUMBER_3))  &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                                              &kp N6       &kp N7          &kp N8        &kp N9    &kp N0           &kp BSPC
+&kp LC(Y)                &kp LC(A)  &kp DE_ESZETT  &kp LC(X)  &kp LC(C)  &kp LC(V)                                           &kp PAGE_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LC(Z)                &kp F1     &kp F2         &kp F3     &kp F4     &kp F5     &caps_word                   &kp DELETE  &kp F6       &kp F7          &kp F8        &kp F9    &kp F10          &kp RET
+                                                              &trans     &trans     &trans      &trans    &mo 5  &sl 9       &trans       &trans
             >;
         };
 
